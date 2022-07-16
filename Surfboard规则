@@ -114,27 +114,17 @@
 
  custom_proxy_group=🚀 手动选择3`select`.* 
 
- 
-
  custom_proxy_group=🎯 国内流量`select`[]♻️🇨🇳 国内节点`[]🚀🇨🇳 国内手切`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3
-
- 
 
  custom_proxy_group=🚀 国外流量`select`[]♻️ 自动选择`[]🔯 故障转移`[]🔮 负载均衡`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3 
 
- 
-
  custom_proxy_group=🚀🇨🇳 国内手切`select`(中国|国内|上海|湖南|深圳|北京|内蒙古|湖南|广东广东|广西|广州|辽宁|福建|山东|厦门|杭州|济南|泉州|四川|成都|贵州|贵阳|内蒙古|安徽|江苏)
-
- 
 
  custom_proxy_group=♻️🇨🇳 国内节点`url-test`(中国|国内|上海|湖南|深圳|北京|湖南|广东|广西|广州|辽宁|福建|山东|厦门|杭州|济南|泉州|四川|成都|贵州|贵阳|内蒙古|安徽|江苏)`http://www.qualcomm.cn/generate_204`300,,1
 
  custom_proxy_group=♻️🇨🇳 国内节点`url-test`(?=.*(中国|国内|上海|湖南|深圳|北京|湖南|广东|广西|广州|辽宁|福建|山东|厦门|杭州|济南|泉州|四川|成都|贵州|贵阳|内蒙古|安徽|江苏))^((?!(香港|台湾|新加坡|美国|韩国|狮城|南朝鲜|US|SG|KR|HK|TW|台灣|美國|韓國|獅城)).)*$`http://www.qualcomm.cn/generate_204`300,,1
 
  custom_proxy_group=♻️ 自动选择`url-test`(^(?!.*(中国|国内|限速|游戏|上海|湖南|深圳|北京|内蒙古|湖南|广东|广西|广州|辽宁|福建|山东|厦门|杭州|济南|泉州|四川|成都|贵州|贵阳|内蒙古|安徽|江苏|Music|music|网易云|music|𝐌𝐮𝐬𝐢𝐜|Unbolck|网易云|云音乐|Music|Netease|🎶|解锁网易云)).*)`http://www.qualcomm.cn/generate_204`300,,1
-
- 
 
  custom_proxy_group=🔯 故障转移`fallback`(^(?!.*(国内|北京|广东|浙江)).*)`http://www.gstatic.com/generate_204`300,,50 
 
@@ -170,8 +160,6 @@
 
  custom_proxy_group=🎮 游戏平台`select`[]🎯 国内流量`[]🚀🇨🇳 国内手切`[]🚀 国外流量`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3 
 
- 
-
  ;custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]🚀 国外流量[]🚀🇨🇳 国内手切`[]🎯 国内流量``[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3` 
 
  ;custom_proxy_group=🍃 应用净化`select`[]REJECT`[]🚀 国外流量`[]🎯 国内流量`[]🚀🇨🇳 国内手切`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3` 
@@ -182,17 +170,15 @@
 
  custom_proxy_group=🐟 漏网之鱼`select`[]🚀 国外流量`[]🎯 国内流量`[]🚀🇨🇳 国内手切`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3 
 
- 
-
  custom_proxy_group=🇭🇰 香港节点`url-test`(港|HK|Hong Kong)`http://www.qualcomm.cn/generate_204`300,,1
 
-custom_proxy_group=🇯🇵 日本节点`url-test`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)`http://www.qualcomm.cn/generate_204`300,,11
+ custom_proxy_group=🇯🇵 日本节点`url-test`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)`http://www.qualcomm.cn/generate_204`300,,11
 
-custom_proxy_group=🇺🇲 美国节点`url-test`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`http://www.qualcomm.cn/generate_204`300,,11
+ custom_proxy_group=🇺🇲 美国节点`url-test`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`http://www.qualcomm.cn/generate_204`300,,11
 
-custom_proxy_group=🇰🇷 韩国节点`url-test`(KR|Korea|KOR|首尔|韩|韓|春川)`http://www.qualcomm.cn/generate_204`300,,1
+ custom_proxy_group=🇰🇷 韩国节点`url-test`(KR|Korea|KOR|首尔|韩|韓|春川)`http://www.qualcomm.cn/generate_204`300,,1
 
-custom_proxy_group=🎥 奈飞节点`select`(NF|奈飞|解锁|Netflix|NETFLIX|Media)
+ custom_proxy_group=🎥 奈飞节点`select`(NF|奈飞|解锁|Netflix|NETFLIX|Media)
 
  ;设置分组标志位 
 
