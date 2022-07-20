@@ -26,17 +26,17 @@
 
  ruleset=🎯 国内流量,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list 
 
- ;ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list 
+ ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list 
 
- ;ruleset=🍃 应用净化,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list 
+ ruleset=🍃 应用净化,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list 
 
- ;ruleset=🆎 AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list 
+ ruleset=🆎 AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list 
 
- ;ruleset=🆎 AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list 
+ ruleset=🆎 AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list 
 
- ;ruleset=🆎 AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list 
+ ruleset=🆎 AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list 
 
- ;ruleset=🛡️ 隐私防护,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list 
+ ruleset=🛡️ 隐私防护,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list 
 
  ruleset=📢 谷歌FCM,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list 
 
@@ -160,13 +160,13 @@
 
  custom_proxy_group=🎮 游戏平台`select`[]🎯 国内流量`[]🚀🇨🇳 国内手切`[]🚀 国外流量`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3 
 
- ;custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]🚀 国外流量[]🚀🇨🇳 国内手切`[]🎯 国内流量``[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3` 
+ custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]🚀 国外流量[]🚀🇨🇳 国内手切`[]🎯 国内流量``[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3` 
 
- ;custom_proxy_group=🍃 应用净化`select`[]REJECT`[]🚀 国外流量`[]🎯 国内流量`[]🚀🇨🇳 国内手切`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3` 
+ custom_proxy_group=🍃 应用净化`select`[]REJECT`[]🚀 国外流量`[]🎯 国内流量`[]🚀🇨🇳 国内手切`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3` 
 
- ;custom_proxy_group=🆎 AdBlock`select`[]REJECT`[]🎯 国内流量`[]🚀🇨🇳 国内手切`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3` 
+ custom_proxy_group=🆎 AdBlock`select`[]REJECT`[]🎯 国内流量`[]🚀🇨🇳 国内手切`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3` 
 
- ;custom_proxy_group=🛡️ 隐私防护`select`[]REJECT`[]🎯 国内流量`[]🚀🇨🇳 国内手切`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3` 
+ custom_proxy_group=🛡️ 隐私防护`select`[]REJECT`[]🎯 国内流量`[]🚀🇨🇳 国内手切`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3` 
 
  custom_proxy_group=🐟 漏网之鱼`select`[]🚀 国外流量`[]🎯 国内流量`[]🚀🇨🇳 国内手切`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3 
 
