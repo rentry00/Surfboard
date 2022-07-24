@@ -16,11 +16,7 @@
 
   
 
- ;设置规则标志位 
-
- ruleset=🎯 国内流量,https://raw.githubusercontent.com/cutethotw/ClashRule/main/Inside.list 
-
- ruleset=🚀 国外流量,https://raw.githubusercontent.com/cutethotw/ClashRule/main/Outside.list 
+ ;设置规则标志位  
 
  ruleset=🎯 国内流量,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list 
 
