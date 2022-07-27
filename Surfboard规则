@@ -76,7 +76,7 @@
 
  ruleset=🎵 TikTok,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list 
  
- ruleset=🚀 全局选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+ ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 
  ruleset=🇨🇳 国内购物,https://raw.githubusercontent.com/hlxvvv/clash/main/rule/xianyu.list
 
@@ -114,17 +114,13 @@
 
  
 
- custom_proxy_group=🚀 全局选择`select`[]♻️ 自动选择`[]🔯 故障转移`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3`[]🚀🇨🇳 国内手切`[]🎯 国内流量`[]🚀 国外流量
+ custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]🔯 故障转移`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3`[]🚀🇨🇳 国内手切`[]🎯 国内流量`[]🚀 国外流量
 
- custom_proxy_group=🚀 手动选择1`select`.* 
+ custom_proxy_group=🚀 手动选择`select`.* 
 
- custom_proxy_group=🚀 手动选择2`select`.* 
+ custom_proxy_group=🎯 国内流量`select`[]🚀 节点选择`[]🚀 手动选择`[]♻️🇨🇳 国内节点`[]🚀🇨🇳 国内手切
 
- custom_proxy_group=🚀 手动选择3`select`.* 
-
- custom_proxy_group=🎯 国内流量`select`[]♻️🇨🇳 国内节点`[]🚀🇨🇳 国内手切`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3
-
- custom_proxy_group=🚀 国外流量`select`[]♻️ 自动选择`[]🔯 故障转移`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3 
+ custom_proxy_group=🚀 国外流量`select`[]🚀 节点选择`[]🚀 手动选择`[]♻️ 自动选择`[]🔯 故障转移`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点
 
  custom_proxy_group=🚀🇨🇳 国内手切`select`(中国|国内|上海|湖南|深圳|北京|内蒙古|湖南|广东广东|广西|广州|辽宁|福建|山东|厦门|杭州|济南|泉州|四川|成都|贵州|贵阳|内蒙古|温州|安徽|江苏)
 
